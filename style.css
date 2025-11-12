@@ -1441,10 +1441,10 @@ body.theme-stitch #search-screen {
   background-color: #BFDEFF; /* Azul claro do Stitch */
 
   background-image:
-          url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/STITCH1.png'),
-          url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/STITCH2.png'),
-          url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/STITCH3.png'),
-          url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/STITCH4.png');
+          url('imagens/stich/STITCH1.png'),
+          url('imagens/stich/STITCH2.png'),
+          url('imagens/stich/STITCH3.png'),
+          url('imagens/stich/STITCH4.png');
 
           /* * Posição de cada imagem (na mesma ordem da lista acima).
               * Sinta-se à vontade para mudar os valores!
@@ -1516,7 +1516,7 @@ body.theme-minecraft .menu-card {
   /* Efeito "pixelado" */
   image-rendering: pixelated;
   /* Substitua pelo caminho da sua imagem de fundo do botão */
-  background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/minecraft.jpg');
+  background-image: url('imagens/minecraft.jpg');
   background-size: cover;
   background-blend-mode: multiply; /* Mescla a cor e a imagem */
   background-position: center;
@@ -1529,7 +1529,7 @@ body.theme-minecraft .action-card {
   box-shadow: 2px 2px 0px #1a6e2c;
   image-rendering: pixelated;
   /* Substitua pelo caminho da sua imagem */
-  background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/minecraft.jpg');
+  background-image: url('imagens/minecraft.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center 90%;
@@ -1641,120 +1641,120 @@ body.theme-minecraft .menu-card[data-menu-nome="Objetos"] {
  /*emoções
  */
 body.theme-stitch .action-card[data-action="Feliz"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/emocoes/feliz.png');
+    background-image: url('imagens/stich/emocoes/feliz.png');
 }
 body.theme-stitch .action-card[data-action="Triste"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/emocoes/triste.png');
+    background-image: url('imagens/stich/emocoes/triste.png');
 }
 body.theme-stitch .action-card[data-action="Bravo"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/emocoes/bravo.png');
+    background-image: url('imagens/stich/emocoes/bravo.png');
 }
 body.theme-stitch .action-card[data-action="Assustado"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/emocoes/assustado.jpg');
+    background-image: url('imagens/stich/emocoes/assustado.jpg');
 }
 body.theme-stitch .action-card[data-action="Calmo"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/emocoes/calmo.png');
+    background-image: url('imagens/stich/emocoes/calmo.png');
 }
 body.theme-stitch .action-card[data-action="Cansado"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/emocoes/cansado.png');
+    background-image: url('imagens/stich/emocoes/cansado.png');
 }
 body.theme-stitch .action-card[data-action="Água"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/necessidades/agua.png');
+    background-image: url('imagens/stich/necessidades/agua.png');
 }
 body.theme-stitch .action-card[data-action="Comida"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/necessidades/comida.png');
+    background-image: url('imagens/stich/necessidades/comida.png');
 }
 body.theme-stitch .action-card[data-action="Banheiro"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/necessidades/banheiro.png');
+    background-image: url('imagens/stich/necessidades/banheiro.png');
 }
 body.theme-stitch .action-card[data-action="Descanso"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/necessidades/descanso.png');
+    background-image: url('imagens/stich/necessidades/descanso.png');
 }
 body.theme-stitch .action-card[data-action="Ajuda"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/necessidades/ajuda.png');
+    background-image: url('imagens/stich/necessidades/ajuda.png');
 }
 
 /*ações
 */
 body.theme-stitch .action-card[data-action="Eu quero"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/acoes/eu quero.png');
+    background-image: url('imagens/stich/acoes/eu quero.png');
 }
 body.theme-stitch .action-card[data-action="Não quero"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/acoes/nao quero.png');
+    background-image: url('imagens/stich/acoes/nao quero.png');
 }
 body.theme-stitch .action-card[data-action="Sim"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/acoes/sim2.png');
+    background-image: url('imagens/stich/acoes/sim2.png');
 }
 body.theme-stitch .action-card[data-action="Não"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/acoes/nao.png');
+    background-image: url('imagens/stich/acoes/nao.png');
 }
 body.theme-stitch .action-card[data-action="Por favor"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/acoes/por favor.png');
+    background-image: url('imagens/stich/acoes/por favor.png');
 }
 body.theme-stitch .action-card[data-action="Obrigado"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/acoes/obrigada.png');
+    background-image: url('imagens/stich/acoes/obrigada.png');
 }
  /*pessoas
  */
 body.theme-stitch .action-card[data-action="Eu"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/pessoas/eu.png');
+    background-image: url('imagens/stich/pessoas/eu.png');
 }
 body.theme-stitch .action-card[data-action="Você"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/pessoas/voce.png');
+    background-image: url('imagens/stich/pessoas/voce.png');
 }
 body.theme-stitch .action-card[data-action="Eles"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/pessoas/eles.png');
+    background-image: url('imagens/stich/pessoas/eles.png');
 }
 body.theme-stitch .action-card[data-action="Nós"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/pessoas/nos.png');
+    background-image: url('imagens/stich/pessoas/nos.png');
 }
 body.theme-stitch .action-card[data-action="Professor"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/pessoas/professor.png');
+    background-image: url('imagens/stich/pessoas/professor.png');
 }
 body.theme-stitch .action-card[data-action="Colega"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/pessoas/colega.png');
+    background-image: url('imagens/stich/pessoas/colega.png');
 }
 body.theme-stitch .action-card[data-action="Amigo"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/pessoas/Amigo.png');
+    background-image: url('imagens/stich/pessoas/Amigo.png');
 }
 
 /*lugares
 */
 
 body.theme-stitch .action-card[data-action="Casa"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/lugares/casa.png');
+    background-image: url('imagens/stich/lugares/casa.png');
 }
 body.theme-stitch .action-card[data-action="Escola"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/lugares/escola.png');
+    background-image: url('imagens/stich/lugares/escola.png');
 }
 body.theme-stitch .action-card[data-action="Médico"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/lugares/medico.png');
+    background-image: url('imagens/stich/lugares/medico.png');
 }
 body.theme-stitch .action-card[data-action="Parque"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/lugares/parque.png');
+    background-image: url('imagens/stich/lugares/parque.png');
 }
 
 /*objetos
 */
 
 body.theme-stitch .action-card[data-action="Livro"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/objeto/livro.png');
+    background-image: url('imagens/stich/objeto/livro.png');
 }
 
 body.theme-stitch .action-card[data-action="Bola"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/objeto/bola.png');
+    background-image: url('imagens/stich/objeto/bola.png');
 }
 body.theme-stitch .action-card[data-action="Música"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/objeto/musica.png');
+    background-image: url('imagens/stich/objeto/musica.png');
 }
 body.theme-stitch .action-card[data-action="Vídeo"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/objeto/video.png');
+    background-image: url('imagens/stich/objeto/video.png');
 }
 body.theme-stitch .action-card[data-action="Tablet"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/objeto/tablet.png');
+    background-image: url('imagens/stich/objeto/tablet.png');
 }
 body.theme-stitch .action-card[data-action="Brinquedo"] .action-icon {
-    background-image: url('/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich/objeto/brinquedos.png');
+    background-image: url('imagens/stich/objeto/brinquedos.png');
 }
 
 .global-search-bar {
