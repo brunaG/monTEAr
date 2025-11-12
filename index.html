@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="monTEAr - Prancha de Comunicação Personalizada para Estudantes com TEA">
+    <meta name="theme-color" content="#2E5090">
+    <title>monTEAr</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiTWluaGEgUHJhbmNoYSBkZSBDb211bmljYcOnw6NvIiwic2hvcnRfbmFtZSI6IlByYW5jaGEgQ0FBIiwic3RhcnRfdXJsIjoiLyIsImRpc3BsYXkiOiJzdGFuZGFsb25lIiwiYmFja2dyb3VuZF9jb2xvciI6IiNGQ0ZDRjkiLCJ0aGVtZV9jb2xvciI6IiMzMjgwOEQiLCJpY29ucyI6W3sic3JjIjoiZGF0YTppbWFnZS9zdmcreG1sLCUzQ3N2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxOTInIGhlaWdodD0nMTkyJyUzRSUzQ3JlY3Qgd2lkdGg9JzE5MicgaGVpZ2h0PScxOTInIGZpbGw9JyUyMzMyODA4RCcvJTNFJTNDdGV4dCB4PSc1MCUyNScgeT0nNTAlMjUnIGZvbnQtc2l6ZT0nODAnIGZpbGw9JyUyM2ZmZicgdGV4dC1hbmNob3I9J21pZGRsZScgZHk9Jy4zZW0nJTNF8J+SrCUzQy90ZXh0JTNFJTNDL3N2ZyUzRSIsInNpemVzIjoiMTkyeDE5MiIsInR5cGUiOiJpbWFnZS9zdmcreG1sIn1dfQ==">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- NOVA BARRA DE BUSCA GLOBAL -->
+    <!-- ============================================ -->
+    <div id="global-search-bar" class="global-search-bar" style="display: none;">
+        <svg class="global-search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="global-search-input" class="global-search-input" placeholder="Buscar menu ou pictograma...">
+        <button id="btn-voice-search" class="btn--icon" aria-label="Busca por voz">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+        </button>
+        <button id="btn-clear-search" class="btn--icon" aria-label="Limpar busca" style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+    </div>
+    <!-- Container para os resultados da busca global -->
+    <div id="global-search-results" class="global-search-results-container" style="display: none;"></div>
+
+
+    <!-- ============================================ -->
+    <!-- TELAS DO APP -->
+    <!-- ============================================ -->
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+        <div class="welcome-container">
+            <h1 class="app-logo">monTEAr</h1>
+            <p class="welcome-subtitle">Prancha de Comunicação Personalizada</p>
+
+            <div class="welcome-form">
+                <div class="form-group">
+                    <label for="student-name" class="form-label">Qual é o seu nome?</label>
+                    <input type="text" id="student-name" class="form-control" placeholder="Digite seu nome aqui" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Escolha seu tema favorito:</label>
+                    <div class="theme-selector">
+                        <button class="theme-option" data-theme="stitch">
+                          <div class="theme-icon">
+                            <!-- Atualizei para um placeholder, já que os caminhos locais não funcionam -->
+                            <img src="/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/stich.png" alt="Ícone Stitch">
+                        </div>
+                            <div class="theme-name">Stitch</div>
+                        </button>
+                        <button class="theme-option" data-theme="minecraft">
+                          <div class="theme-icon">
+                             <!-- Atualizei para um placeholder, já que os caminhos locais não funcionam -->
+
+                             <img src="/Users/brunagonzaga/Library/Mobile Documents/com~apple~CloudDocs/Mestrado/2025:2/LABORATÓRIO DE INOVAÇÃO EDUCACIONAL/monTEAr/imagens/minecraft.jpg" alt="Ícone Minecraft">
+                        </div>
+                            <div class="theme-name">Minecraft</div>
+                        </button>
+                    </div>
+                </div>
+
+                <button id="btn-start" class="btn btn--primary btn--lg btn--full-width" disabled>Começar!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Menu Screen -->
+    <div id="main-menu-screen" class="screen">
+        <!-- O padding-top foi adicionado para compensar a barra de busca fixa -->
+        <div class="menu-header" style="padding-top: 70px;">
+            <div class="menu-header-top">
+                <h1 class="app-logo-small">monTEAr</h1>
+                <div class="user-info" id="user-info"></div>
+                <button id="btn-change-profile" class="btn btn--secondary btn--sm">Trocar Perfil</button>
+            </div>
+        </div>
+
+        <div class="main-menu-grid" id="main-menu-grid">
+            <!-- Menu buttons will be inserted here -->
+        </div>
+    </div>
+
+    <!-- Submenu Screen -->
+    <div id="submenu-screen" class="screen">
+         <!-- O padding-top foi adicionado para compensar a barra de busca fixa -->
+        <div class="screen-header" style="padding-top: 70px;">
+            <button id="btn-back-to-menu" class="btn btn--secondary" aria-label="Voltar">← Voltar</button>
+            <h2 id="submenu-title">Menu</h2>
+        </div>
+        <div class="actions-grid" id="actions-grid">
+            <!-- Action cards will be inserted here -->
+        </div>
+    </div>
+
+    <!-- Search Screen (Tela de Busca Antiga) -->
+    <div id="search-screen" class="screen">
+         <!-- O padding-top foi adicionado para compensar a barra de busca fixa -->
+        <div class="screen-header" style="padding-top: 70px;">
+            <button id="btn-back-to-menu-from-search" class="btn btn--secondary" aria-label="Voltar">← Voltar</button>
+            <h2>Encontrar</h2>
+        </div>
+
+        <div class="search-container">
+            <div class="form-group">
+                <label for="search-input" class="form-label">O que você está procurando?</label>
+                <!-- Container para input e botão de voz -->
+                <div class="search-input-container">
+                    <input type="text" id="search-input" class="form-control search-input" placeholder="Digite aqui... Ex: água, pintar, feliz">
+                    <button id="btn-voice-search-page" class="btn--icon" aria-label="Busca por voz">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="search-results" id="search-results">
+                <p class="search-placeholder">Digite algo no campo acima para buscar</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
